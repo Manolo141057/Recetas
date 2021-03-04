@@ -1,0 +1,249 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    margin: 0;
+    
+
+}
+
+/**Globales**/
+img {
+    max-width: 100%;
+    
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: rgb(36, 86, 194);
+    margin: 4rem 0;
+}
+
+h3 {
+    font-size: 3rem;
+
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+
+
+/**Utilidades**/
+.seccion {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.d-blok {
+    display: block !important;
+}
+
+.contenido-centrado {
+    max-width: 800px;
+}
+.enlaces{
+    color: blue;
+}
+
+/**Botones**/
+.boton {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: 1rem 6rem;
+    margin: 2rem 0 6rem 0;
+    transition: background-color .3s ease-in-out;
+    display: inline-block;
+    text-align: center;
+    display: block;
+    flex: 0 0 100%;
+}
+
+@media (min-width: 768px) {
+    .boton {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+
+.boton-amarillo {
+    background-color: #e08709;
+}
+
+.boton-verde {
+    background-color: #71b100;
+}
+
+.boton-azul {
+    background-color: #37baf7;
+    border-radius: 2rem;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: #6eb7f3;
+
+}
+/**PAGINA PRINCIPAL DE RECETAS**/
+
+.site-recetas {
+    background-image: url(./img/cabecera_recetas.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.barra a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.8rem;
+     
+}
+.site-recetas h1 {
+    font-weight: 400;
+    padding-top: 1rem;
+    margin: 0;       
+}
+.site-recetas .navegacion{
+    padding-top: 2rem;
+}
+.texto-header {
+    color: white;
+    margin-top: 11rem;
+    line-height: 4rem;
+}
+.texto-header p{
+    margin-top: 13rem;
+}
+.listado-alfabetico{
+    
+    flex-direction: column;
+}
+.listado-alfabetico a{
+    color: blue;
+}
+/**FOOTER**/
+.site-footer{
+    background: rgb(85, 88, 88);
+    height: auto;
+    padding: 0 2rem;
+}
+.navegacion-footer a{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.texto-footer{
+    display: flex;
+    justify-content: space-between;    
+}
+.texto-footer p{
+    font-size: 1rem;
+}
+.texto-footer p span{
+    font-weight: 900;
+}
+
+/**PAGINAS INTERIORES**/
+
+
+/**langostinos con garbanzos (lan_gar)**/
+.cabecera-paginas-langar{
+    background-image: url(./img/cabecera_lan_gar.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+}
+.logotipo-paginas h1{
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    padding-top: 4rem;
+    line-height: 4rem;
+    text-decoration: none;        
+}
+.logotipo-paginas i{
+    font-size: 4rem;
+    border-radius: 50%;
+    background-color:white
+}
+
+/**elaboración**/
+.contenido-paginas ul{
+    padding: 0;
+}
+.contenido-paginas ul li{
+    list-style: none;
+}
+
+.texto-pasospaginas{
+    display: flex;       
+}
+.texto-pasospaginas span{    
+    margin-right: 3rem;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.texto-pasospaginas a{
+    color: blue;
+}
+
+/**CALDO**/
+
+/**POLLO CON VERDURAS**/
+
+.cabecera-paginas-pollo{
+    background-image: url(./img/cabecera_pollo_01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+}
+.texto-pasospaginas img{
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
